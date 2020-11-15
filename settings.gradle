@@ -1,0 +1,3 @@
+include ':updateDetailsLibrary'
+include ':app'
+rootProject.name = "[21A10243]_project1"

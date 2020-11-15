@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">[21A10243]_project1</string>
+    <string name="label_proximity">%1$.2f</string>
+    <string name="label_light" >%1$.2f</string>
+    <string name="error_no_sensor">No sensor</string>
+    <string name="appRules">To open the app your phone needs to be in charging, wait 15 seconds, the flight and Bluetooth mode should be off and you need to hide the proximity sensor!
+</string>
+</resources>
