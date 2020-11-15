@@ -4,21 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:layout_centerInParent="true"
     android:background="@drawable/background"
     android:orientation="vertical"
     android:paddingTop="20dp" >
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
         android:textStyle="bold"
         android:textSize="25dp"
-        android:gravity="center"
-        android:layout_marginTop="25dp"
-        android:text="@string/appRules">
-
-    </TextView>
+        android:text="Enter password:">
+    </EditText>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
