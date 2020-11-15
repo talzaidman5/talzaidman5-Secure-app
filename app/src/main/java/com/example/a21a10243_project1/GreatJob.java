@@ -19,7 +19,8 @@ public class GreatJob extends AppCompatActivity {
         activity_great_job_BTN_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent intent = new Intent(GreatJob.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 
