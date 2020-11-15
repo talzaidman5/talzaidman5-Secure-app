@@ -57,8 +57,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     isBatteryCharging = batteryIntent.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
                     Date currentTimeEnd = Calendar.getInstance().getTime();
                     float change =  (currentTimeEnd.getTime()-currentTime.getTime())/1000;
-                    if (checkAirplaneMode == 0 &&checkBluetoothMode ==0 && currentValue < 8 && isBatteryCharging == BatteryManager.BATTERY_STATUS_CHARGING &&change >=15)
+                    if (checkAirplaneMode == 0 &&checkBluetoothMode ==0 && currentValue < 8 && isBatteryCharging == BatteryManager.BATTERY_STATUS_CHARGING &&change >=15) {
+                        finish();
                         openGreatJob();
+                    }
                     else {
                         Toast toast = Toast.makeText(getApplicationContext(), "Eror", Toast.LENGTH_SHORT);
                         toast.show();
